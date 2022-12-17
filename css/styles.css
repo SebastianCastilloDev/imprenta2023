@@ -72,3 +72,53 @@ img{
 .mt-5{
   margin-top:4rem;
 }
+
+/*Header*/
+.header{
+  min-height: 60rem;
+  background-image: linear-gradient(green 0%, aqua 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+    .header{
+      padding: 2rem 0;
+    }
+}
+
+/*Barra y Slogan*/
+.contenido-header{
+  display: flex;
+  flex-direction: column;
+  height: calc(60rem - 4rem);
+  justify-content: space-between;
+  color: var(--blanco)
+}
+
+.nombre-sitio{
+  font-weight: 300;
+  text-align: center;
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .nombre-sitio{
+      font-size:5rem;
+    }
+}
+
+.nombre-sitio span{
+  font-weight: 900;
+}
+
+
+@media (min-width: 768px) {
+    .barra{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}
